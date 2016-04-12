@@ -17,12 +17,6 @@
 function MM_swapImgRestore() { //v3.0
   var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
 }
-function MM_preloadImages() { //v3.0
-  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
-    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
-    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
-}
-
 function MM_findObj(n, d) { //v4.01
   var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
     d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
@@ -38,12 +32,325 @@ function MM_swapImage() { //v3.0
 </script>
 </head>
 
-<body onLoad="MM_preloadImages('imagenes/jesus.jpg','imagenes/3.jpg')">
+<body onLoad="MM_preloadImages('imagenes/jesus.jpg','imagenes/5.jpg')">
 <div data-role="page" id="Principal" data-theme="a">
 <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" 	   data-back-btn-theme="b">
 <h1><center>
   <p>SEMANA SANTA EN MEXICO</p>
-  <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image18','','imagenes/ji.png',1)"><img src="imagenes/jo.png" width="300" height="386" id="Image18"></a></p>
+  <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image53','','imagenes/5.jpg',1)"><img src="imagenes/6.jpg" width="550" height="244" id="Image53"></a></p>
+</center></h1>
+</div>
+<div data-role="main" class="ui-content">
+
+<center></center> 
+
+<ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>¿Qué es la semana Santa?</h2>
+<p>muetra el concepto</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Que religiones lacelebran </h2>
+<p>muestra las religiones</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>La semana santa en atlixco</h2>
+<p>muestra el contenido</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>CELEBRACION EN EL ESTADO DE PUEBLA</h2>
+<p>celebracion en puebla </p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2> Iztapalapa</h2>
+<p> Muestra el contenido</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>San Luis Potosi</h2>
+<p>Muestra el contenido</p>
+</a>
+</li>
+
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2> Guerrero</h2>
+<p>Muestra el contenido</p>
+</a>
+</li>
+
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2> Oaxaca</h2>
+<p>Muestra el contenido</p>
+</a>
+</li>
+
+</ul>
+</div>
+<div data-role="footer" align="center" data-theme="a">
+  <div>
+  <img src="imagenes/persona_azul.png" width="46" height="46">
+  </div>
+  <div>
+  <h4>Aplicacion Dos</h4>
+  <h4>EDUARDO AQUINO DOLORES</h4>
+  </div>
+  </div>
+</div>
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h1>concepto</h1>
+ 
+  </div>
+  <div data-role="content" align="center">
+  <div>
+  <h2> La Semana Santa es la conmemoración anual cristiana de la Pasión, Muerte y Resurrección de Jesús de Nazaret. Por eso, es un período de intensa actividad litúrgica dentro de las diversas confesiones cristianas. Da comienzo el Domingo de Ramos y finaliza el Domingo de Resurrección, aunque su celebración suele iniciarse en varios lugares el viernes anterior (Viernes de Dolores) y se considera parte de la misma el Domingo de Resurrección. La fecha de la celebración es variable (entre marzo y abril según el año) ya que depende del calendario lunar.</h2>
+  </div>
+  <div>
+<img src="imagenes/2.jpg" width="50%" height="50%"> </div>
+<div><img src="imagenes/jo.png" width="50%" height="50%">
+ </div>
+
+  <div data-role="footer" data-theme="a">
+  <h4>Aplicacion dos; EAD</h4>
+  </div>
+  </div>
+</div>
+  
+ 
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h1>Que religiones la celebran</h1>
+ </div>
+<div data-role="content" align="center">
+ <div>
+ <h2>Catolicos</h2>
+ <p>
+Catolicismo El término se refiere a los cristianos pertenecientes a la Iglesia católica, compuesta por 23 iglesias sui iuris que se encuentran en completa comunión con el papa y que en conjunto reúnen a más de mil millones de fieles (una sexta parte de la población mundial y más de la mitad de todos los fieles cristianos). La principal característica distintiva de la Iglesia católica es el reconocimiento de la autoridad y primacía del papa, obispo de Roma. Sin embargo hay varias Iglesias que comparten también el adjetivo calificativo de «católicas», como la Iglesia ortodoxa y las Iglesias ortodoxas orientales, la Iglesia asiria del Oriente y las Iglesias que constituyen la Comunión anglicana.</p></div>
+ </div>
+ <div>
+<center><img src="imagenes/ji.png" width="25%" height="25%"></center></div>
+
+ <div>
+ <center><h2>Musulmanes</h2></center>
+ <p>
+Musulmán es una palabra árabe que significa «el que se somete (a Dios)». Musulmán es la persona cuyo credo religioso es el islam. La palabra árabe muslim, femenino muslima, significa «el sometido o entregado a la voluntad de Dios». Así, todo aquel que ha aceptado la sumisión a Dios, puede ser llamado musulmán sin temor a equivocarse.
+
+Por eso profetas anteriores a Muhammad,
+
+como Abraham, Moisés y Jesús así como la Virgen María y otros.</p></div>
+ 
+<div>
+<center><img src="imagenes/5.jpg" width="50%" height="50%"></center></div>
+
+
+<div>
+ <center><h2>Testigo de Jehova</h2></center>
+ <p>
+Los Testigos de Jehová son una denominación cristiana milenarista, antitrinitarista y antiecuménica, con creencias heterodoxas distintas a las vertientes principales de la cristiandad.1 2 Se consideran a sí mismos una restitución del cristianismo primitivo, creencia que se basa en su propio entendimiento de la Biblia, preferentemente de su Traducción del Nuevo Mundo de las Santas Escrituras, y que tiene como propósito santificar el nombre de Jehová.</p></div>
+ 
+<div>
+<center><img src="imagenes/6.jpg" width="50%" height="50%"></center></div>
+
+
+
+ <div data-role="footer" data-theme="a">
+ <h4>Aplicacion Dos; EAD</h4>
+ </div>
+</div>
+ </div>
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+ <h1>La semana Santa en atlixco</h1>
+  </div>
+ 
+
+ <div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>1</h1>
+<div>
+
+<br>
+</div>
+<div>
+<center>
+  <p><img src="imagenes/14.jpg" width="40%" height="40%"></p>
+  <p><em>Entre las tradiciones que han distinguido a Atlixco es la &lsquo;Procesión del Silencio&rsquo; en la comunidad de Nexatengo, la cual es realizada por la cofradía de Nazarenos de la entidad y la &lsquo;Procesión de Engrillados&rsquo;. Cabe mencionar que ambos eventos son actos de penitencia, fe y de arrepentimiento, mismos que se realizarán el próximo 6 de abril a partir de la seis de la mañana en Santa Lucía Cosamaloapan</em>&rdquo;, refirió el alcalde.</p>
+</center> </div>
+</div>
+
+ 
+<div data-role="collapsible" data-content-theme="false">
+  <h1>2 </h1>
+<div>
+
+<br>
+</div>
+<div>
+<center>
+  <p><img src="imagenes/15.jpg" width="40%" height="40%"></p>
+  <p>Cabe precisar que en la &ldquo;Procesión de los Engrillados&rdquo; los participantes se caracterizan por vestir de luto y portar pesadas cadenas de aproximadamente 60 kilos, además de ponerse espinas en el cuerpo. Ellos recorren las principales calle de la ciudad y tienen una preparación, tanto espiritual como física de dos meses. Se realizará también el viernes 6 de abril.</p>
+</center> </div>
+</div>
+
+ 
+<div data-role="collapsible" data-content-theme="false">
+<h1>3</h1>
+<div>
+
+<br>
+</div>
+<div>
+<center>
+  <p><img src="imagenes/16.jpg" width="40%" height="40%"></p>
+  <p>Asimismo, Camacho Corripio invitó a todos los poblanos y personas de otros estados vecinos a admirar el tapete monumental de &ldquo;Flores de Primavera&rdquo;, el cual fue hecho con más de 160 mil plantas y con imágenes alusivas a esta temporada de Semana Santa, y otro con diseños representativos de Atlixco.</p>
+</center> </div>
+</div>
+
+
+<div data-role="collapsible" data-content-theme="false">
+<h1>4</h1>
+<div>
+
+<br>
+</div>
+<div>
+<center>
+  <p><img src="imagenes/17.jpg" width="40%" height="40%"></p>
+  <p>Agregó que Atlixco cuenta con servicios turísticos, una gran infraestructura hotelera y una amplia gama de zonas donde puede degustar la gastronomía propia de la entidad, desde sus restaurantes hasta la zona de mercados.</p>
+</center> </div>
+</div>
+<div data-role="collapsible" data-content-theme="false">
+<h1>tapete monumental</h1>
+<div>
+
+<br>
+</div>
+<div>
+<center>
+  <p><img src="imagenes/18.jpg" width="40%" height="40%"></p>
+  <p>Sin duda Atlixco ofrece esta temporada una gran variedad de opciones para toda la familia. Por su ubicación, en un hermoso valle, goza de un clima privilegiado considerado el;mejor clima del mundo, el cual permite el amplio desarrollo de la floricultura. También cuenta con la fiesta tradicional del Huey Atlixcáyotl (que se lleva a cabo en septiembre), considerada como la fiesta más importante de los poblanos. Asimismo, Atlixco posee un amplio patrimonio arquitectónico que le merece el reconocimiento como zona típica monumental desde 1989&rdquo;, mencionó.</p>
+  <p> </p>
+</center> </div>
+</div>
+<br>
+</div>
+ <div data-role="footer" data-theme="a">
+ <h4>Aplicacion Dos; EAD</h4>
+ </div>
+</div>
+ </div>
+
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+ <h1>Celebracion en el estado de puebla</h1>
+ </div>
+ <div data-role="content" align="center">
+ <div>
+ <h2>La celebración de Semana Santa es para los poblanos una de las conmemoraciones más importantes del año cristiano; durante estos días aquellas personas que profesan alguna de las diferentes confesiones de la fe cristiana acuden a las iglesias más emblemáticas de Puebla para recordar la Pasión, Muerte y Resurrección de Jesús de Nazaret.</h2>
+ <img src="imagenes/puebla.jpg" width="50%" height="50%">
+ </div>
+ </div>
+ <div data-role="footer" data-theme="a">
+ <h4>Aplicacion Uno, EAD</h4>
+ </div>
+</div>
+ </div>
+
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+ <h1>Iztalapa </h1>
+ </div>
+ <div data-role="content" align="center">
+ <div>
+ <h2>En Iztapalapa tiene lugar una ceremonia, fiesta y representación de la Pasión, que no responde ni a una narración sacra, ni a un teatro tradicional: es una expresión de múltiples aportaciones que se funde en una particular sincretización.</h2></div>
+ <img src="imagenes/9.jpg" width="50%" height="50%">
+ </div>
+ <div data-role="footer" data-theme="a">
+ <h4>Aplicacion Dos; EAD</h4>
+ </div>
+</div>
+ </div>
+ 
+<div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+ <h1>San Luis Potosi</h1>
+ </div>
+ <div data-role="content" align="center">
+ <div>
+ <h2>En todo San Luis Potosí se organizan un buen número de eventos culturales y religiosos para conmemorar la Semana Santa, desde turismo religioso y cultural, como el espectáculo de la Fiesta de la Luz, museos e iglesias, hasta turismo de aventura. Sin embargo, el evento más importante y de mayor tradición entre los lugareños tiene lugar el Viernes Santo, cuando se realiza la Procesión del Silencio, una de las más arraigadas debido a su solemnidad y misticismo. No importa que no seas católico, ven a vivir una experiencia digna de recordar en la que mientras más cosas sucedan, más querrás conocer el origen y significado de lo que estás presenciando.</h2>
+ <img src="imagenes/10.jpg" width="25%" height="25%">
+ </div>
+ </div>
+ <div data-role="footer" data-theme="a">
+ <h4>Aplicacion Dos;EAD</h4>
+ </div>
+</div>
+ </div>
+ 
+<div data-role="page" id="Pagina7" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+ <h1>Guerrero</h1>
+ </div>
+ <div data-role="content" align="center">
+ <div>
+ <h2>Durante toda una semana, en las calles de este Pueblo Mágico guerrerense se llevan a cabo procesiones en las cuales sus habitantes dan muestra de su fe a través de sacrificios simbólicos, y hasta físicos, para expiar alguna culpa o simplemente para ofrendar su sufrimiento a quien consideran su salvador. Por las calles empedradas desfilan las dramáticas procesiones acompañadas por imágenes religiosas que testifican el sacrificio de penitentes encapuchados, vestidos de negro que arrastran cadenas sujetas a sus tobillos a manera de sacrificio.</h2>
+ <img src="imagenes/11.jpg" width="25%" height="25%">
+ </div>
+ </div>
+ <div data-role="footer" data-theme="a">
+ <h4>Aplicacion Dos; EAD</h4>
+ </div>
+</div>
+ </div>
+
+<div data-role="page" id="Pagina8" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+ <h1>Oaxaca</h1>
+ </div>
+ <div data-role="content" align="center">
+ <div>
+ <h2>En el Estado de Oaxaca la Semana Santa muestra tintes diversos: desde el respeto y solemnidad con que los oaxaqueños acuden a los templos a tomar ceniza y el recogimiento con el que los católicos manifiestan su luto durante esta semana, hasta la alegría de los “Viernes del Llano” que los jóvenes, celebran en la ciudad capital, llenos de entusiasmo; o la colorida generosidad del “Día de la Samaritana”, con el obsequio de aguas frescas en templos, escuelas, oficinas, negocios, etc.</h2>
+<div>
+<img src="imagenes/13.jpg" width="50%" height="50%"> </div>
+ <div data-role="collapsible" data-content-theme="false">
+<h1>OAXAQUEÑOS</h1>
+<div>
+
+<br>
+</div>
+<div>
+<img src="imagenes/12.jpg" width="50%" height="50%"> </div>
+</div>
+ </div>
+ </div>
+ <div data-role="footer" data-theme="a">
+ <h4>Aplicacion Dos; EAD</h4>
+ </div>
+</div>
+ </div>
+
+</body>
+</html>
+
+<body onLoad="MM_preloadImages('imagenes/jesus.jpg')">
+<div data-role="page" id="Principal" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" 	   data-back-btn-theme="b">
+<h1><center>
+  <p>SEMANA SANTA EN MEXICO</p>
+  <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image18','','imagenes/3.jpg',1)"><img src="imagenes/4.jpg" width="300" height="386" id="Image18"></a></p>
 </center></h1>
 </div>
 <div data-role="main" class="ui-content">
@@ -177,7 +484,7 @@ Los Testigos de Jehová son una denominación cristiana milenarista, antitrinita
  </div>
  </div>
 
-<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+ <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
  <h1>La semana Santa en atlixco</h1>
   </div>
@@ -348,5 +655,314 @@ Los Testigos de Jehová son una denominación cristiana milenarista, antitrinita
  </div>
  </div>
 
+ </body><body onLoad="MM_preloadImages('imagenes/jesus.jpg','imagenes/3.jpg')">
+<div data-role="page" id="Principal" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" 	   data-back-btn-theme="b">
+<h1><center>
+  <p>SEMANA SANTA EN MEXICO</p>
+  <p>&nbsp;</p>
+</center></h1>
+</div>
+<div data-role="main" class="ui-content">
+
+<center></center> 
+
+<ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>¿Qué es la semana Santa?</h2>
+<p>muetra el concepto</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Que religiones lacelebran </h2>
+<p>muestra las religiones</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>La semana santa en atlixco</h2>
+<p>muestra el contenido</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>CELEBRACION EN EL ESTADO DE PUEBLA</h2>
+<p>celebracion en puebla </p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2> Iztapalapa</h2>
+<p> Muestra el contenido</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>San Luis Potosi</h2>
+<p>Muestra el contenido</p>
+</a>
+</li>
+
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2> Guerrero</h2>
+<p>Muestra el contenido</p>
+</a>
+</li>
+
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2> Oaxaca</h2>
+<p>Muestra el contenido</p>
+</a>
+</li>
+
+</ul>
+</div>
+<div data-role="footer" align="center" data-theme="a">
+  <div>
+  <img src="imagenes/persona_azul.png" width="46" height="46">
+  </div>
+  <div>
+  <h4>Aplicacion Dos</h4>
+  <h4>EDUARDO AQUINO DOLORES</h4>
+  </div>
+  </div>
+</div>
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h1>concepto</h1>
+ 
+  </div>
+  <div data-role="content" align="center">
+  <div>
+  <h2> La Semana Santa es la conmemoración anual cristiana de la Pasión, Muerte y Resurrección de Jesús de Nazaret. Por eso, es un período de intensa actividad litúrgica dentro de las diversas confesiones cristianas. Da comienzo el Domingo de Ramos y finaliza el Domingo de Resurrección, aunque su celebración suele iniciarse en varios lugares el viernes anterior (Viernes de Dolores) y se considera parte de la misma el Domingo de Resurrección. La fecha de la celebración es variable (entre marzo y abril según el año) ya que depende del calendario lunar.</h2>
+  </div>
+  <div>
+<img src="imagenes/2.jpg" width="50%" height="50%"> </div>
+<div>
+<img src="imagenes/3.jpg" width="50%" height="50%"> </div>
+
+  <div data-role="footer" data-theme="a">
+  <h4>Aplicacion dos; EAD</h4>
+  </div>
+  </div>
+</div>
+  
+ 
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h1>Que religiones la celebran</h1>
+ </div>
+<div data-role="content" align="center">
+ <div>
+ <h2>Catolicos</h2>
+ <p>
+Catolicismo El término se refiere a los cristianos pertenecientes a la Iglesia católica, compuesta por 23 iglesias sui iuris que se encuentran en completa comunión con el papa y que en conjunto reúnen a más de mil millones de fieles (una sexta parte de la población mundial y más de la mitad de todos los fieles cristianos). La principal característica distintiva de la Iglesia católica es el reconocimiento de la autoridad y primacía del papa, obispo de Roma. Sin embargo hay varias Iglesias que comparten también el adjetivo calificativo de «católicas», como la Iglesia ortodoxa y las Iglesias ortodoxas orientales, la Iglesia asiria del Oriente y las Iglesias que constituyen la Comunión anglicana.</p></div>
+ </div>
+ <div>
+<center><img src="imagenes/4.jpg" width="25%" height="25%"></center></div>
+
+ <div>
+ <center><h2>Musulmanes</h2></center>
+ <p>
+Musulmán es una palabra árabe que significa «el que se somete (a Dios)». Musulmán es la persona cuyo credo religioso es el islam. La palabra árabe muslim, femenino muslima, significa «el sometido o entregado a la voluntad de Dios». Así, todo aquel que ha aceptado la sumisión a Dios, puede ser llamado musulmán sin temor a equivocarse.
+
+Por eso profetas anteriores a Muhammad,
+
+como Abraham, Moisés y Jesús así como la Virgen María y otros.</p></div>
+ 
+<div>
+<center><img src="imagenes/5.jpg" width="50%" height="50%"></center></div>
+
+
+<div>
+ <center><h2>Testigo de Jehova</h2></center>
+ <p>
+Los Testigos de Jehová son una denominación cristiana milenarista, antitrinitarista y antiecuménica, con creencias heterodoxas distintas a las vertientes principales de la cristiandad.1 2 Se consideran a sí mismos una restitución del cristianismo primitivo, creencia que se basa en su propio entendimiento de la Biblia, preferentemente de su Traducción del Nuevo Mundo de las Santas Escrituras, y que tiene como propósito santificar el nombre de Jehová.</p></div>
+ 
+<div>
+<center><img src="imagenes/6.jpg" width="50%" height="50%"></center></div>
+
+
+
+ <div data-role="footer" data-theme="a">
+ <h4>Aplicacion Dos; EAD</h4>
+ </div>
+</div>
+ </div>
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+ <h1>La semana Santa en atlixco</h1>
+  </div>
+ 
+
+ <div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>1</h1>
+<div>
+
+<br>
+</div>
+<div>
+<center>
+  <p><img src="imagenes/14.jpg" width="40%" height="40%"></p>
+  <p><em>Entre las tradiciones que han distinguido a Atlixco es la &lsquo;Procesión del Silencio&rsquo; en la comunidad de Nexatengo, la cual es realizada por la cofradía de Nazarenos de la entidad y la &lsquo;Procesión de Engrillados&rsquo;. Cabe mencionar que ambos eventos son actos de penitencia, fe y de arrepentimiento, mismos que se realizarán el próximo 6 de abril a partir de la seis de la mañana en Santa Lucía Cosamaloapan</em>&rdquo;, refirió el alcalde.</p>
+</center> </div>
+</div>
+
+ 
+<div data-role="collapsible" data-content-theme="false">
+  <h1>2 </h1>
+<div>
+
+<br>
+</div>
+<div>
+<center>
+  <p><img src="imagenes/15.jpg" width="40%" height="40%"></p>
+  <p>Cabe precisar que en la &ldquo;Procesión de los Engrillados&rdquo; los participantes se caracterizan por vestir de luto y portar pesadas cadenas de aproximadamente 60 kilos, además de ponerse espinas en el cuerpo. Ellos recorren las principales calle de la ciudad y tienen una preparación, tanto espiritual como física de dos meses. Se realizará también el viernes 6 de abril.</p>
+</center> </div>
+</div>
+
+ 
+<div data-role="collapsible" data-content-theme="false">
+<h1>3</h1>
+<div>
+
+<br>
+</div>
+<div>
+<center>
+  <p><img src="imagenes/16.jpg" width="40%" height="40%"></p>
+  <p>Asimismo, Camacho Corripio invitó a todos los poblanos y personas de otros estados vecinos a admirar el tapete monumental de &ldquo;Flores de Primavera&rdquo;, el cual fue hecho con más de 160 mil plantas y con imágenes alusivas a esta temporada de Semana Santa, y otro con diseños representativos de Atlixco.</p>
+</center> </div>
+</div>
+
+
+<div data-role="collapsible" data-content-theme="false">
+<h1>4</h1>
+<div>
+
+<br>
+</div>
+<div>
+<center>
+  <p><img src="imagenes/17.jpg" width="40%" height="40%"></p>
+  <p>Agregó que Atlixco cuenta con servicios turísticos, una gran infraestructura hotelera y una amplia gama de zonas donde puede degustar la gastronomía propia de la entidad, desde sus restaurantes hasta la zona de mercados.</p>
+</center> </div>
+</div>
+<div data-role="collapsible" data-content-theme="false">
+<h1>tapete monumental</h1>
+<div>
+
+<br>
+</div>
+<div>
+<center>
+  <p><img src="imagenes/18.jpg" width="40%" height="40%"></p>
+  <p>Sin duda Atlixco ofrece esta temporada una gran variedad de opciones para toda la familia. Por su ubicación, en un hermoso valle, goza de un clima privilegiado considerado el;mejor clima del mundo, el cual permite el amplio desarrollo de la floricultura. También cuenta con la fiesta tradicional del Huey Atlixcáyotl (que se lleva a cabo en septiembre), considerada como la fiesta más importante de los poblanos. Asimismo, Atlixco posee un amplio patrimonio arquitectónico que le merece el reconocimiento como zona típica monumental desde 1989&rdquo;, mencionó.</p>
+  <p> </p>
+</center> </div>
+</div>
+<br>
+</div>
+ <div data-role="footer" data-theme="a">
+ <h4>Aplicacion Dos; EAD</h4>
+ </div>
+</div>
+ </div>
+
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+ <h1>Celebracion en el estado de puebla</h1>
+ </div>
+ <div data-role="content" align="center">
+ <div>
+ <h2>La celebración de Semana Santa es para los poblanos una de las conmemoraciones más importantes del año cristiano; durante estos días aquellas personas que profesan alguna de las diferentes confesiones de la fe cristiana acuden a las iglesias más emblemáticas de Puebla para recordar la Pasión, Muerte y Resurrección de Jesús de Nazaret.</h2>
+ <img src="imagenes/puebla.jpg" width="50%" height="50%">
+ </div>
+ </div>
+ <div data-role="footer" data-theme="a">
+ <h4>Aplicacion Uno, EAD</h4>
+ </div>
+</div>
+ </div>
+
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+ <h1>Iztalapa </h1>
+ </div>
+ <div data-role="content" align="center">
+ <div>
+ <h2>En Iztapalapa tiene lugar una ceremonia, fiesta y representación de la Pasión, que no responde ni a una narración sacra, ni a un teatro tradicional: es una expresión de múltiples aportaciones que se funde en una particular sincretización.</h2></div>
+ <img src="imagenes/9.jpg" width="50%" height="50%">
+ </div>
+ <div data-role="footer" data-theme="a">
+ <h4>Aplicacion Dos; EAD</h4>
+ </div>
+</div>
+ </div>
+ 
+<div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+ <h1>San Luis Potosi</h1>
+ </div>
+ <div data-role="content" align="center">
+ <div>
+ <h2>En todo San Luis Potosí se organizan un buen número de eventos culturales y religiosos para conmemorar la Semana Santa, desde turismo religioso y cultural, como el espectáculo de la Fiesta de la Luz, museos e iglesias, hasta turismo de aventura. Sin embargo, el evento más importante y de mayor tradición entre los lugareños tiene lugar el Viernes Santo, cuando se realiza la Procesión del Silencio, una de las más arraigadas debido a su solemnidad y misticismo. No importa que no seas católico, ven a vivir una experiencia digna de recordar en la que mientras más cosas sucedan, más querrás conocer el origen y significado de lo que estás presenciando.</h2>
+ <img src="imagenes/10.jpg" width="25%" height="25%">
+ </div>
+ </div>
+ <div data-role="footer" data-theme="a">
+ <h4>Aplicacion Dos;EAD</h4>
+ </div>
+</div>
+ </div>
+ 
+<div data-role="page" id="Pagina7" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+ <h1>Guerrero</h1>
+ </div>
+ <div data-role="content" align="center">
+ <div>
+ <h2>Durante toda una semana, en las calles de este Pueblo Mágico guerrerense se llevan a cabo procesiones en las cuales sus habitantes dan muestra de su fe a través de sacrificios simbólicos, y hasta físicos, para expiar alguna culpa o simplemente para ofrendar su sufrimiento a quien consideran su salvador. Por las calles empedradas desfilan las dramáticas procesiones acompañadas por imágenes religiosas que testifican el sacrificio de penitentes encapuchados, vestidos de negro que arrastran cadenas sujetas a sus tobillos a manera de sacrificio.</h2>
+ <img src="imagenes/11.jpg" width="25%" height="25%">
+ </div>
+ </div>
+ <div data-role="footer" data-theme="a">
+ <h4>Aplicacion Dos; EAD</h4>
+ </div>
+</div>
+ </div>
+
+<div data-role="page" id="Pagina8" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+ <h1>Oaxaca</h1>
+ </div>
+ <div data-role="content" align="center">
+ <div>
+ <h2>En el Estado de Oaxaca la Semana Santa muestra tintes diversos: desde el respeto y solemnidad con que los oaxaqueños acuden a los templos a tomar ceniza y el recogimiento con el que los católicos manifiestan su luto durante esta semana, hasta la alegría de los “Viernes del Llano” que los jóvenes, celebran en la ciudad capital, llenos de entusiasmo; o la colorida generosidad del “Día de la Samaritana”, con el obsequio de aguas frescas en templos, escuelas, oficinas, negocios, etc.</h2>
+<div>
+<img src="imagenes/13.jpg" width="50%" height="50%"> </div>
+ <div data-role="collapsible" data-content-theme="false">
+<h1>OAXAQUEÑOS</h1>
+<div>
+
+<br>
+</div>
+<div>
+<img src="imagenes/12.jpg" width="50%" height="50%"> </div>
+</div>
+ </div>
+ </div>
+ <div data-role="footer" data-theme="a">
+ <h4>Aplicacion Dos; EAD</h4>
+ </div>
+</div>
+ </div>
+
 </body>
-</html>
